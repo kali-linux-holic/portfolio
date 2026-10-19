@@ -55,7 +55,7 @@ export default function App() {
       {/* Fullscreen Video Background */}
       <video
         ref={videoRef}
-        src="/hero-video.mp4"
+        src={`${import.meta.env.BASE_URL}hero-video.mp4`}
         autoPlay
         loop
         muted={isMuted}
