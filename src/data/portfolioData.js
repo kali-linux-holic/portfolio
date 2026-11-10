@@ -11,8 +11,8 @@ export const portfolioData = {
     availability: "Available for Q1/Q2 high-impact engineering & consulting",
     email: "aayush.devcraft@gmail.com",
     github: "https://github.com/kali-linux-holic",
-    discord: "https://discord.com/users/1548032871019708487",
-    discordUserId: "1548032871019708487",
+    discord: "https://discord.com/users/731657388989612072",
+    discordUserId: "731657388989612072",
     twitter: "https://x.com",
     linkedin: "https://linkedin.com",
     resumeUrl: "#",
@@ -57,6 +57,26 @@ export const portfolioData = {
   ],
 
   projects: [
+    {
+      id: "discord-vanity-sniper",
+      category: "Systems & Low-Latency Networking",
+      title: "Discord Vanity URL Sniper",
+      subtitle: "Sub-220ms drift-compensated Discord vanity sniper in Node 22 with raw undici & IPv4 pinning",
+      kanjiTag: "狙撃手",
+      featured: true,
+      year: "2024",
+      liveUrl: "#",
+      githubUrl: "https://github.com/kali-linux-holic/discord-vanity-sniper",
+      tech: ["Node.js 22", "TypeScript", "Undici HTTP", "Zod", "Pino", "Otplib (TOTP)", "Vitest", "Oracle Cloud ARM"],
+      summary: "High-frequency Discord vanity URL sniper engineered for sub-220ms attempt spacing on Oracle Cloud Ubuntu 24.04 ARM. Features 7-step preflight verification, IPv4 DNS pinning, safe no-op password probe, and off-hot-path RFC 6238 TOTP rotation.",
+      problem: "Traditional Discord vanity tools rely on bloated Discord.js client wrappers, uncompensated setTimeout drift, fragile IPv6 fallbacks, and fail to validate account credentials before hammering rate limits.",
+      solution: "Engineered a bare-metal HTTP client using undici Agent connection pools, pre-resolved IPv4 pinning, request-duration latency compensation, and an automated 7-step preflight suite that catches 50035 invalid credentials prior to loop entry.",
+      metrics: [
+        { label: "Sustained Loop Interval", value: "200-250ms p50" },
+        { label: "Pre-Resolution Penalty", value: "0ms DNS delay" },
+        { label: "Credential Verification", value: "100% Preflight Catch" }
+      ]
+    },
     {
       id: "komorebi",
       category: "Creative Dev & WebGL",

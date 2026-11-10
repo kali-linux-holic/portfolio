@@ -99,13 +99,13 @@ export default function LegacyModal({ isOpen, onClose }) {
     },
     {
       id: '04',
-      title: 'Self-Bot Vanity Warfare Suite',
+      title: 'Discord Vanity URL Sniper (Node 22 Undici)',
       badge: 'VANITY SNIPER',
       icon: Crosshair,
       color: 'border-white/15 hover:border-white/40',
       badgeColor: 'bg-white/10 text-emerald-200 border-white/15',
-      description: 'Vanity sniper, Vanity swapper, Vanity protector etc. via self bot.',
-      tags: ['Vanity Sniper', 'Vanity Swapper', 'Vanity Protector', 'Self-Bot'],
+      description: 'Ultra-low latency sub-220ms Discord vanity URL sniper in Node 22 with raw undici HTTP, IPv4 DNS pinning, 7-step preflight verification, and off-hot-path RFC 6238 TOTP pre-generation.',
+      tags: ['Node 22', 'Undici HTTP', 'IPv4 Pinning', 'Preflight Suite', 'TOTP 2FA', 'Oracle ARM', 'Drift Compensated'],
     },
     {
       id: '05',
@@ -222,7 +222,7 @@ export default function LegacyModal({ isOpen, onClose }) {
   const serverLegacyItems = [
     {
       id: '01',
-      name: '/nukers',
+      name: '/signtogod',
       tag: 'FLAGSHIP',
       role: 'Primary Network Hub',
       desc: 'Central operations & tactical server legacy',
@@ -545,20 +545,20 @@ export default function LegacyModal({ isOpen, onClose }) {
                     Official Proofs & Operation Vault
                   </div>
                   <div className="text-xs sm:text-sm font-semibold font-mono-code text-white mt-0.5">
-                    join /nukers to see nuking legacy
+                    join /signtogod to see nuking legacy
                   </div>
                 </div>
               </div>
 
               {/* Action Button */}
               <a
-                href="https://discord.gg/nukers"
+                href="https://discord.gg/signtogod"
                 target="_blank"
                 rel="noreferrer"
                 onClick={() => sound.playTap()}
                 className="w-full py-3 px-5 rounded-2xl bg-white hover:bg-white/90 text-black text-xs sm:text-sm font-mono-code font-bold flex items-center justify-center gap-2 transition-all hover:scale-101 shadow-[0_0_20px_rgba(255,255,255,0.3)] cursor-pointer"
               >
-                <span>Join discord.gg/nukers</span>
+                <span>Join discord.gg/signtogod</span>
                 <ArrowUpRight size={16} />
               </a>
             </div>
