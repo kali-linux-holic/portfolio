@@ -73,8 +73,6 @@ export default function LegacyModal({ isOpen, onClose }) {
       color: 'border-white/15 hover:border-white/40',
       badgeColor: 'bg-white/10 text-sky-200 border-white/15',
       description: 'An antinuke discord bot "Proton" with multiple features like auto-mod, ticket, raid protection, giveaway, announcements, etc.',
-      link: 'https://proton-bot-a0a.pages.dev/',
-      linkLabel: 'proton-bot-a0a.pages.dev',
       tags: ['Anti-Nuke', 'Auto-Mod', 'Ticket System', 'Raid Protection', 'Giveaways', 'Announcements'],
     },
     {
