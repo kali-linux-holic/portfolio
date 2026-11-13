@@ -38,10 +38,10 @@ export default function LegacyModal({ isOpen, onClose }) {
     {
       id: 'developing',
       title: 'View Developing Legacy',
-      eyebrow: '// 15+ Tools, Bots & Architectures',
+      eyebrow: '// 16+ Tools, Bots & Architectures',
       icon: Code2,
       accentColor: 'text-sky-300',
-      badge: '15 Artifacts',
+      badge: '16 Artifacts',
       description: 'Antinuke bots, token automations, bypass tools, game panels, mobile louding, and full-stack web systems.',
     },
     {
@@ -77,6 +77,16 @@ export default function LegacyModal({ isOpen, onClose }) {
     },
     {
       id: '02',
+      title: 'Vindicator — Multipurpose & Anti-Nuke Bot',
+      badge: 'MULTIPURPOSE BOT',
+      icon: Bot,
+      color: 'border-white/15 hover:border-white/40',
+      badgeColor: 'bg-white/10 text-emerald-200 border-white/15',
+      description: 'A multipurpose discord bot "Vindicator" equipped with robust antinuke security, moderation, ticket system, utilities, and server protection.',
+      tags: ['Multipurpose', 'Anti-Nuke', 'Server Security', 'Auto-Mod', 'Moderation', 'Utilities'],
+    },
+    {
+      id: '03',
       title: 'Discord Token & Nitro Generator Suite',
       badge: 'AUTOMATION',
       icon: Zap,
@@ -86,7 +96,7 @@ export default function LegacyModal({ isOpen, onClose }) {
       tags: ['Evs Gen', 'Nitro Checker', 'VC Joiner', 'Mass Renamer', 'PFP Changer', 'AI Chat'],
     },
     {
-      id: '03',
+      id: '04',
       title: 'Superfast Nuke Multi-Tool',
       badge: 'HIGH-SPEED NUKE',
       icon: Flame,
@@ -96,7 +106,7 @@ export default function LegacyModal({ isOpen, onClose }) {
       tags: ['Mass Ban', 'Mass Channels', 'Mass Ping', 'Multi-Threaded'],
     },
     {
-      id: '04',
+      id: '05',
       title: 'Discord Vanity URL Sniper (Node 22 Undici)',
       badge: 'VANITY SNIPER',
       icon: Crosshair,
@@ -106,7 +116,7 @@ export default function LegacyModal({ isOpen, onClose }) {
       tags: ['Node 22', 'Undici HTTP', 'IPv4 Pinning', 'Preflight Suite', 'TOTP 2FA', 'Oracle ARM', 'Drift Compensated'],
     },
     {
-      id: '05',
+      id: '06',
       title: 'Comprehensive Self-Bot Framework',
       badge: 'SELF-BOT SUITE',
       icon: Terminal,
@@ -116,7 +126,7 @@ export default function LegacyModal({ isOpen, onClose }) {
       tags: ['Self Nuking', 'Self Raiding', 'Utilities', 'Full Framework'],
     },
     {
-      id: '06',
+      id: '07',
       title: 'Mobile Louding App Engine',
       badge: 'MOBILE APP',
       icon: Smartphone,
@@ -126,7 +136,7 @@ export default function LegacyModal({ isOpen, onClose }) {
       tags: ['Self Rec', 'Screen-Sharing Safe', 'Zero Crash', 'No External Modules'],
     },
     {
-      id: '07',
+      id: '08',
       title: 'Real-Time Bot-as-User Client',
       badge: 'GATEWAY CLIENT',
       icon: Key,
@@ -136,7 +146,7 @@ export default function LegacyModal({ isOpen, onClose }) {
       tags: ['Bot Token Login', 'Real-Time User', 'Session Gateway', 'Live Control'],
     },
     {
-      id: '08',
+      id: '09',
       title: 'Discord Quest Automation Suite',
       badge: 'QUEST BOT & EXE',
       icon: Sparkles,
@@ -146,7 +156,7 @@ export default function LegacyModal({ isOpen, onClose }) {
       tags: ['Quest Completor Bot', 'Standalone EXE App', 'Automated Rewards'],
     },
     {
-      id: '09',
+      id: '10',
       title: 'Game Panels & External Tools',
       badge: 'GAME PANELS',
       icon: Cpu,
@@ -156,7 +166,7 @@ export default function LegacyModal({ isOpen, onClose }) {
       tags: ['Free Fire', 'Minecraft', 'BGMI', 'Valorant', 'External Panels'],
     },
     {
-      id: '10',
+      id: '11',
       title: 'Auto Loud & Python Automation Suite',
       badge: 'PYTHON AUTOMATION',
       icon: Terminal,
@@ -166,7 +176,7 @@ export default function LegacyModal({ isOpen, onClose }) {
       tags: ['Auto Installer', '1-Click Setup', 'Python Automation', 'Script Engine'],
     },
     {
-      id: '11',
+      id: '12',
       title: 'Free Fire UID Bypass & Server Booster',
       badge: 'BYPASS & BOOST',
       icon: Shield,
@@ -176,7 +186,7 @@ export default function LegacyModal({ isOpen, onClose }) {
       tags: ['Free Fire UID Bypass', 'PC Bypass', 'Auto Server Booster', 'Discord Boost'],
     },
     {
-      id: '12',
+      id: '13',
       title: 'Full-Stack Web Architectures & Tooling',
       badge: 'WEB SUITE',
       icon: Globe,
@@ -186,7 +196,7 @@ export default function LegacyModal({ isOpen, onClose }) {
       tags: ['Custom Websites', 'Frontend / Backend', 'External Web Tools', 'Responsive'],
     },
     {
-      id: '13',
+      id: '14',
       title: 'Website Raider External Tool',
       badge: 'WEB RAIDER',
       icon: Flame,
@@ -196,7 +206,7 @@ export default function LegacyModal({ isOpen, onClose }) {
       tags: ['Website Raider', 'External Engine', 'High-Throughput'],
     },
     {
-      id: '14',
+      id: '15',
       title: '1-Click Telemetry & Credential Inspector',
       badge: 'INTELLIGENCE TOOL',
       icon: Key,
@@ -206,7 +216,7 @@ export default function LegacyModal({ isOpen, onClose }) {
       tags: ['Token Grabber', 'Live Location', 'IP Grabber', '1-Click Execution'],
     },
     {
-      id: '15',
+      id: '16',
       title: 'Backdoor Bypass Architecture',
       badge: 'SYSTEM EXPLOIT',
       icon: Shield,
@@ -394,14 +404,14 @@ export default function LegacyModal({ isOpen, onClose }) {
           </div>
         )}
 
-        {/* View 2: Developing Legacy Detailed 15 Cards */}
+        {/* View 2: Developing Legacy Detailed Cards */}
         {selectedCategory === 'developing' && (
           <div className="space-y-4 animate-fade-in">
             {/* Top Search & Filter Bar */}
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3 rounded-2xl border border-white/10 bg-white/[0.02]">
               <div className="flex items-center gap-2 text-xs font-mono-code text-white/70">
                 <span className="w-2 h-2 rounded-full bg-sky-400 animate-pulse" />
-                <span>15 DEVELOPED ARTIFACTS // BOTS, ENGINES & EXPLOITS</span>
+                <span>16 DEVELOPED ARTIFACTS // BOTS, ENGINES & EXPLOITS</span>
               </div>
               <div className="relative">
                 <Search size={13} className="absolute left-3 top-1/2 -translate-y-1/2 text-white/40" />
@@ -415,7 +425,7 @@ export default function LegacyModal({ isOpen, onClose }) {
               </div>
             </div>
 
-            {/* 15 Cards Grid */}
+            {/* Cards Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
               {filteredDevelopingItems.map((item) => {
                 const ItemIcon = item.icon;
